@@ -15,7 +15,7 @@ function passwordCheck(req, res, next)
         userIsAuth = true;
     }
     next();
-};
+}
 
 app.use(passwordCheck);
 
